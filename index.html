@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Содержание</h1>
+        <ul>
+            <li><a href="#part1"><p>О себе</p></a></li>
+            <li><a href="#part2"><p>Мои навыки</p></a></li>
+            <li><a href="#part3"><p>Любимые сайты</p></a></li>
+            <li><a href="#part4"><p>Мои одногруппники</p></a></li>
+        </ul>
+        <h1 id="part1">О себе</h1>
+        <div class="aboutMe">
+            <div class="photo">
+                <img src="myPhoto.jpg">
+            </div>
+            <div class="info">
+                <div class="name">
+                    <p>
+                        Теплякова Лада Андреевна
+                    </p>
+                </div>
+                <p>
+                    Учусь на втором курсе в Омском Государственном Техническом Университете, на направлении Информационные Системы и Технологии, Факультет Информационных Технологий и Компьютерных Систем.
+                </p>
+                <p>
+                    19 лет
+                </p>
+            </div>
+        </div>
+        <h1 id="part2">Мои навыки</h1>
+        <div class="skills">
+            <ul>
+                <li><p>HTML, CSS</p></li>
+                <li><p>Python</p></li>
+                <li><p>C++</p></li>
+                <li><p>Figma</p></li>
+            </ul>
+        </div>
+        <h1 id="part3">Любимые сайты</h1>
+        <div class="sytes"></div>
+            <ul>
+                <li><a href="https://vk.com/feed"><p>VK</p></a></li>
+                <li><a href="https://www.omgtu.ru/"><p>ОмГТУ</p></a></li>
+                <li><a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0"><p>Wikipedia</p></a></li>
+            </ul>
+        </div>
+        <h1 id="part4">Мои одногруппники</h1>
+        <table border="2px" id="table">
+            <tr> 
+                <th> 
+                    <p><strong>№</strong></p> 
+                </th> 
+                <th> 
+                    <p><strong>Имя</strong></p> 
+                </td> 
+                <th> 
+                    <p><strong>Возраст</strong></p> 
+                </th> 
+                <th> 
+                    <p><strong>Пол</strong></p> 
+                </th> 
+                <th> 
+                    <p><strong>Рост</strong></p> 
+                </th> 
+                <th> 
+                    <p><strong>Телефон</strong></p> 
+                </th> 
+                <th> 
+                    <p><strong>Связь</strong></p> 
+                </th> 
+            </tr> 
+            <tr class="row"> 
+                <td> 
+                    <p>1</p> 
+                </td> 
+                <td> 
+                    <p>Вершинин Артем</p> 
+                </td> 
+                <td> 
+                    <p>19</p> 
+                </td> 
+                <td> 
+                    <p>м</p> 
+                </td> 
+                <td> 
+                    <p>171 см</p> 
+                </td> 
+                <td> 
+                    <a href="tel:+7 (8005) 55 35 35"><p>8 800 555 35 35</p></a> 
+                </td> 
+                <td> 
+                    <a href="https://vk.com/slithard"><p>Вк</p></a>
+                </td> 
+            </tr>
+            <tr  class="row"> 
+                <td> 
+                    <p>2</p> 
+                </td> 
+                <td> 
+                    <p>Кононова Анастасия</p> 
+                </td> 
+                <td> 
+                    <p>19</p> 
+                </td> 
+                <td> 
+                    <p>ж</p> 
+                </td> 
+                <td> 
+                    <p>168 см</p> 
+                </td> 
+                <td> 
+                    <a href="tel:+7 (9136) 00 34 63"><p>+7 913 600 34 63</p></a> 
+                </td> 
+                <td> 
+                    <a href="https://vk.com/p.nhfd"><p>Вк</p></a>
+                </td> 
+            </tr> 
+            <tr  class="row"> 
+                <td> 
+                    <p>3</p> 
+                </td> 
+                <td> 
+                    <p>Лешик Мякишев</p> 
+                </td> 
+                <td> 
+                    <p>19</p> 
+                </td> 
+                <td> 
+                    <p>м</p> 
+                </td> 
+                <td> 
+                    <p>170 см</p> 
+                </td> 
+                <td> 
+                    <a href="tel:+7 (9509) 50 31 90"><p>+7 950 950 31 90</p></a> 
+                </td> 
+                <td> 
+                    <a href="https://vk.com/id388760767"><p>Вк</p></a>
+                </td> 
+            </tr>
+        </table>
+        <div class="inputsBg">
+            <div class="inputs">
+                <div>
+                    <p>Введите ФИО</p>
+                    <input id="names" type="text">
+                    <br>
+                </div>
+                <div>
+                    <p>Введите возраст</p>
+                    <input id="age" type="text">
+                    <br>
+                </div>
+                <div>
+                    <p>Введите пол (м/ж)</p>
+                    <input id="gender" type="text">
+                    <br>
+                </div>
+                <div>
+                    <p>Введите рост</p>
+                    <input id="height" type="text">
+                    <br>
+                </div>
+                <div>
+                    <p>Введите номер телефона</p>
+                    <input id="phone" type="tel">
+                    <br>
+                </div>
+                <div>
+                    <p>Ссылка на страницу ВК</p>
+                    <input id="contacts" type="url">
+                    <br>
+                </div>
+                <button id="btn"><p>Подтвердить</p></button>
+            </div>
+        </div>
+        <div class="slider-part">
+            <button id="left"><p>&#60;</p></button>
+            <div class="slider">
+                <div class="pics">
+                    <div class="picture">
+                        <img src="leonardo.png">
+                    </div>
+                    <div class="picture">
+                        <img src="raphael.png">
+                    </div>
+                    <div class="picture">
+                        <img src="donatello.png">
+                    </div>
+                    <div class="picture">
+                        <img src="michelangelo.png">
+                    </div>
+                </div>
+            </div>
+            <button id="right"><p>&#62;</p></button>
+        </div>
+    </body>
+    <script src="script.js">
+
+    </script>
+</html>
